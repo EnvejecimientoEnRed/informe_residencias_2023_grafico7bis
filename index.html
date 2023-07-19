@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Centros residenciales según tipo y tamaño<</title> <!-- MODIFICAR -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section class="chart-main">
+        <section class="container container-chart active" id="chartBlock">
+            <!-- Título y subtítulo -->
+            <div class="bl-title">
+                <h1>Centros residenciales según tipo y tamaño</h1> <!-- MODIFICAR -->
+                <h3>Datos de septiembre de 2022</h3> <!-- MODIFICAR -->
+            </div>
+    
+            <!-- Visualización DW -->
+            <div class="bl-chart" id="chartDw">
+                <!-- INICIO - Seleccionar opción 'Responsive iframe' - Incluir un ID --> <!-- MODIFICAR -->
+				<iframe title="Centros residenciales según tipo y tamaño, 2022" aria-label="Barras apiladas" id="datawrapper-chart-zSYrv" src="https://datawrapper.dwcdn.net/zSYrv/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="550" data-external="1"></iframe>
+				<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+				<!-- FINAL -->
+                <!-- INICIO - Opción Flourish --> <!-- MODIFICAR -->
+                <!-- <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/1093194">
+                    <script src="https://public.flourish.studio/resources/embed.js"></script>
+                </div>
+                <!-- FINAL -->
+                
+                <!-- INICIO - Incluir imagen .png (almacenada en el propio repositorio) para descarga --> <!-- MODIFICAR -->
+                <img class="chart-img" src="https://raw.githubusercontent.com/EnvejecimientoEnRed/informe_residencias_2023_grafico7bis/main/grafico.png" alt="Visualización de Datawrapper" width="100%" height="420px">
+                <!-- FINAL -->
+            </div>
+    
+            <!-- Notas asociadas al gráfico -->
+            <div class="bl-info">
+                <div class="bl-notes">
+                    <p><b>Fuente:</b> Informe Envejecimiento en red nº 30. Estadísticas sobre residencias: distribución de centros y plazas residenciales por provincia</p> <!-- MODIFICAR -->
+                    <p><b>Elaboración:</b> Laboratorio de Estadísticas Experimentales (IEGD-CSIC)</p>
+                </div>
+                <!-- Logos > Estas imágenes se pueden alojar donde mejor convenga. En esta prueba cojo dos de un repositorio ya existente en Github). Se puede trabajar con lo actual sin problema. -->
+                <div class="bl-logos">
+                    <a href="https://envejecimientoenred.csic.es/" target="_blank" rel="noopener"><img class="logo_enr" src="https://raw.githubusercontent.com/EnvejecimientoEnRed/base-template-dw/main/logos/nuevo_logo_enr.jpeg" alt="Logo de Envejecimiento en Red" width="100%" height="100%"></a>
+                    <a href="https://www.csic.es/es" target="_blank" rel="noopener"><img class="logo_csic" src="https://raw.githubusercontent.com/EnvejecimientoEnRed/base-template-dw/main/logos/logotipo_csic.png" alt="Logo del Consejo Superior de Investigaciones Científicas" width="100%" height="100%"></a>
+                </div>
+            </div>
+            <p class="bl-copyright">
+                <a class="link" href="" target="_blank">CC BY 4.0</a>
+            </p>
+        </section>
+        <section class="container container-data">
+            <h1 class="margin-bottom">Nota metodológica</h1> <!-- MODIFICAR -->
+            <p>Se revisaron los repositorios de información de los recursos sociales de cada comunidad autónoma (páginas web, buscadores, listas) y otras guías durante el primer semestre de 2022; se actualizó nuestra base de datos de residencias. Posteriormente, el 4 de octubre de 2022, <b>se envió una encuesta postal a las 5.620 residencias para personas mayores de España</b>, con información pre-rellenada para que las residencias completaran o modificaran. Se sugirió en el formulario la fecha de referencia de 1 de septiembre de 2022 para la información solicitada. <b>Respondieron el 56,7% entre octubre de 2022 y febrero de 2023</b>, momento de cierre para las estadísticas, aunque siguen llegando formularios que se incluyen posteriormente en la base de datos. En caso de no haber recibido respuesta a esta encuesta, se mantendrá la información obtenida en la última encuesta respondida.</p>
+            <p>Los microdatos actualizados y de años anteriores están disponibles en el apartado de <a class="link" href="https://envejecimientoenred.csic.es/datos-abiertos/residencias/" target="_blank">datos abiertos de Envejecimiento en Red</a>.</p>
+            <br>
+			<h1 class="margin-bottom">Repositorio de código</h1> <!-- MODIFICAR -->
+            <p>Los datos procesados en esta visualización los puede encontrar en <a class="link" href="https://github.com/EnvejecimientoEnRed/informe_residencias_2023_grafico7bis" target="_blank">este repositorio de Github</a>.</p>
+			<!-- <h1 class="margin-bottom">Descarga de datos</h1> 
+			<p>Si desea descargarlos, puede hacerlo desde <a class="link" href="https://raw.githubusercontent.com/EnvejecimientoEnRed/base-template-dw/main/prueba.csv" target="_blank">aquí</a>.</p> <!-- MODIFICAR -->
+        </section>
+        <section class="container container-iframe">
+			<h1 class="margin-bottom">Descarga como imagen estática</h1>
+			<p>Puede descargar el gráfico como una imagen .png haciendo click <button class="btn_share" id="pngImage">aquí</button></p>
+            <br>
+			<h1 class="margin-bottom">Uso del iframe en sitios web</h1>
+            <h3>Embeber iframe con alto dinámico</h3>
+            <p>A la hora de utilizar la visualización dentro de un iframe y poder visualizarla de forma responsiva, este desarrollo se sirve de la librería <a class="link" href="http://blog.apps.npr.org/pym.js/" target="_blank">Pym.js</a>, que modifica de forma dinámica la altura de los iframes.</p>
+            <p>Si su sitio web acepta el uso de librerías de terceros, como es el caso de Pym.js, y desea disponer la opción responsiva de esta visualización, copie el siguiente código:</p>
+            <textarea class="text-iframe margin-bottom" disabled="" id="iframe-responsive"></textarea>
+            <h3>Embeber iframe con alto fijo</h3>
+            <p>Si su sitio web no acepta iframes responsivos, puede utilizar el siguiente código con altura fija. Es posible que exista scroll vertical al incrustar el iframe en su página web.</p>             
+            <p>Si desea integrar esta visualización en su propia página, puede hacerlo copiando el siguiente código:</p>
+			<textarea class="text-iframe" disabled="" id="iframe-fixed"></textarea>
+        </section>
+        <section class="container container-rrss">
+            <h1 class="margin-bottom">Compartir en redes sociales</h1>
+            <p>Existe la posibilidad de compartir la visualización a través de las redes sociales. Puede hacerlo clicando en alguno de los siguientes iconos:</p>
+            <div class="rrss">
+                <a href="#" class="fa fa-facebook" id="shareFB" target="_blank"></a>
+                <a href="#" class="fa fa-twitter" id="shareTW" target="_blank"></a>
+                <a href="#" class="fa fa-linkedin" id="shareLK" target="_blank"></a>
+                <a href="#" class="fa fa-whatsapp" id="shareWA" target="_blank"></a>
+            </div>
+        </section>
+        <!-- PESTAÑAS -->
+        <nav class="bl-tabs">
+            <ul class="tabs">
+                <li class="tab active" data-target="container-chart">Gráfico</span>&nbsp;<i class="fa fa--share fa-bar-chart"></i></li>
+                <li class="tab" data-target="container-data"><span class="tab-text" id="dataText">Notas</span>&nbsp;<i class="fa fa--share fa-file-text"></i></li>
+                <li class="tab" data-target="container-iframe">Utilízalo</span>&nbsp;<i class="fa fa--share fa-download"></i></li>
+                <li class="tab tab-rrss" data-target="container-rrss">Compártelo</span>&nbsp;<i class="fa fa--share fa-share-alt"></i></li>
+            </ul>
+        </nav>
+    </section>
+    
+    <!-- SCRIPTS (PYMJS y HTML2CANVAS)-->
+    <script src="https://pym.nprapps.org/pym.v1.min.js"></script>
+    <script>var pymChild=new pym.Child();</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <!-- SCRIPT PROPIO -->
+    <script src="./index.js?v=1.3"></script>
+</body>
+</html>
